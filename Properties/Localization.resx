@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MsgAgreetoAddNewRecord" xml:space="preserve">
+    <value>Are you sure to Add a New Job Instruction?</value>
+  </data>
+  <data name="MsgAgreetoCancel" xml:space="preserve">
+    <value>Are you sure to Cancel the Operation?</value>
+  </data>
+  <data name="MsgAgreetoDeleteNewRecord" xml:space="preserve">
+    <value>Are you sure that you want to delete this Job Instruction?</value>
+  </data>
+  <data name="MsgAgreetoSaveNewRecord" xml:space="preserve">
+    <value>Are you sure to Save the new Job Instruction?</value>
+  </data>
+  <data name="MsgAllActiveJobElapseTime" xml:space="preserve">
+    <value>All the Active Jobs was executed and the elapsetime is</value>
+  </data>
+  <data name="MsgAppActLogPathCreated" xml:space="preserve">
+    <value>Application Actions Log Path, created in</value>
+  </data>
+  <data name="MsgAppActLogPathFound" xml:space="preserve">
+    <value>Application Actions Log Path Found in</value>
+  </data>
+  <data name="MsgAppActLogPathNotFound" xml:space="preserve">
+    <value>Application Actions Log Path Not Found in</value>
+  </data>
+  <data name="MsgAppBaseLogPathCreated" xml:space="preserve">
+    <value>Application Base Log Path, created in</value>
+  </data>
+  <data name="MsgAppBaseLogPathFound" xml:space="preserve">
+    <value>Application Base Log Path Found in</value>
+  </data>
+  <data name="MsgAppBaseLogPathNotFound" xml:space="preserve">
+    <value>Application Base Log Path Not Found in</value>
+  </data>
+  <data name="MsgAppLicNotValid" xml:space="preserve">
+    <value>Application License status is Not Valid or maybe corrupcted, please verify!!!</value>
+  </data>
+  <data name="MsgAppLicOutOfPeriod" xml:space="preserve">
+    <value>Application running out of the active license period...</value>
+  </data>
+  <data name="MsgAppLogFile" xml:space="preserve">
+    <value>Application Log file</value>
+  </data>
+  <data name="MsgAppLogFileCrtdSuccess" xml:space="preserve">
+    <value>Application Log file created with success!!!</value>
+  </data>
+  <data name="MsgAppSysLogFile" xml:space="preserve">
+    <value>Application System Log file:</value>
+  </data>
+  <data name="MsgAppSysLogPathCreated" xml:space="preserve">
+    <value>Application System Log Path, created in</value>
+  </data>
+  <data name="MsgAppSysLogPathFound" xml:space="preserve">
+    <value>Application System Log Path Found in</value>
+  </data>
+  <data name="MsgAppSysLogPathNotFound" xml:space="preserve">
+    <value>Application System Log Path Not Found in</value>
+  </data>
+  <data name="MsgAppTerminated" xml:space="preserve">
+    <value>Application Terminated!!!</value>
+  </data>
+  <data name="MsgAppWrkLogPathCreated" xml:space="preserve">
+    <value>Application Working Path, created in</value>
+  </data>
+  <data name="MsgAppWrkLogPathFound" xml:space="preserve">
+    <value>Application Working Path Found in</value>
+  </data>
+  <data name="MsgAppWrkLogPathNotFound" xml:space="preserve">
+    <value>Application Working Path Not Found in</value>
+  </data>
+  <data name="MsgCannotConServer" xml:space="preserve">
+    <value>Cannot connect to server.  Contact administrator!</value>
+  </data>
+  <data name="MsgCleanUpRoutine" xml:space="preserve">
+    <value>Cleanup log routine was executed, see App logfile for more details.</value>
+  </data>
+  <data name="MsgConnDBFile" xml:space="preserve">
+    <value>Connection DB File</value>
+  </data>
+  <data name="MsgConnRemServer" xml:space="preserve">
+    <value>Connecting with the Registration Server...</value>
+  </data>
+  <data name="MsgContLogFile" xml:space="preserve">
+    <value>Continuing the log file...</value>
+  </data>
+  <data name="MsgCrtdWithSuccess" xml:space="preserve">
+    <value>created with success !!!</value>
+  </data>
+  <data name="MsgDayAllFilesWillbe" xml:space="preserve">
+    <value>day(s), all the file(s) with creation or modification date less then</value>
+  </data>
+  <data name="MsgDayAllFilesWillbeExec" xml:space="preserve">
+    <value>day(s), all the file(s) will be</value>
+  </data>
+  <data name="MsgDaysLeft" xml:space="preserve">
+    <value>DaysLeft</value>
+  </data>
+  <data name="MsgDBConnFileNotFound" xml:space="preserve">
+    <value>DB connection file not found... starting to create!</value>
+  </data>
+  <data name="MsgDefFile" xml:space="preserve">
+    <value>Definition File:</value>
+  </data>
+  <data name="MsgDefFileNotFound" xml:space="preserve">
+    <value>Definition file not found... starting to create!</value>
+  </data>
+  <data name="MsgDefFileNotFoundExit" xml:space="preserve">
+    <value>Definition file not found... Exist from the Application!</value>
+  </data>
+  <data name="MsgEndJobProcAt" xml:space="preserve">
+    <value>End of Job Processing at:</value>
+  </data>
+  <data name="MsgErrCannotDetcOS" xml:space="preserve">
+    <value>Cannot determine operating system!</value>
+  </data>
+  <data name="MsgErrClosConnection" xml:space="preserve">
+    <value>Error closing the connection.  Contact administrator</value>
+  </data>
+  <data name="MsgErrCrtActLogFolder" xml:space="preserve">
+    <value>Error creating Application Action Log Folder in</value>
+  </data>
+  <data name="MsgErrCrtDBConn" xml:space="preserve">
+    <value>Error creating the DB connection</value>
+  </data>
+  <data name="MsgErrCrtDBConnFile" xml:space="preserve">
+    <value>Error creating the DB connection file:</value>
+  </data>
+  <data name="MsgErrCrtDefFile" xml:space="preserve">
+    <value>Error creating the definition file:</value>
+  </data>
+  <data name="MsgErrCrtLicenseFile" xml:space="preserve">
+    <value>Error creating license file, please verify!!!</value>
+  </data>
+  <data name="MsgErrCrtSysLogFolder" xml:space="preserve">
+    <value>Error creating System Log Folder in</value>
+  </data>
+  <data name="MsgErrCrtWrkLogFolder" xml:space="preserve">
+    <value>Error creating Working Folder in</value>
+  </data>
+  <data name="MsgErrOnlyOneLog" xml:space="preserve">
+    <value>Only one log type can be selected.</value>
+  </data>
+  <data name="MsgErrorGenFiles" xml:space="preserve">
+    <value>Error generating the files:</value>
+  </data>
+  <data name="MsgErrProcFile" xml:space="preserve">
+    <value>Error processing file:</value>
+  </data>
+  <data name="MsgErrTryCopyFile" xml:space="preserve">
+    <value>Error trying to copy the file:</value>
+  </data>
+  <data name="MsgErrTryDownFile" xml:space="preserve">
+    <value>Error trying to download the file:</value>
+  </data>
+  <data name="MsgErrTryMoveFile" xml:space="preserve">
+    <value>Error trying to move the file:</value>
+  </data>
+  <data name="MsgErrTryRemDownFile" xml:space="preserve">
+    <value>Error trying to remove or download the file:</value>
+  </data>
+  <data name="MsgErrTryRemFile" xml:space="preserve">
+    <value>Error trying to remove the file:</value>
+  </data>
+  <data name="MsgErrTryRenFile" xml:space="preserve">
+    <value>Error trying to rename the file:</value>
+  </data>
+  <data name="MsgErrTryUpFile" xml:space="preserve">
+    <value>Error trying to Upload the file:</value>
+  </data>
+  <data name="MsgErrTryUpldFile" xml:space="preserve">
+    <value>Error trying to Upload and delete the file:</value>
+  </data>
+  <data name="MsgErrTryZipfile" xml:space="preserve">
+    <value>Error trying to zip the file:</value>
+  </data>
+  <data name="MsgErrUnableToRestore" xml:space="preserve">
+    <value>Error unable to Restore!</value>
+  </data>
+  <data name="MsgErrUnbToBackup" xml:space="preserve">
+    <value>Error unable to backup!</value>
+  </data>
+  <data name="MsgFatalErrorlogFolder" xml:space="preserve">
+    <value>Fatal Error!!! Log Folder Not Found or No Permission to access !!!</value>
+  </data>
+  <data name="MsgFatalErrorSendMail" xml:space="preserve">
+    <value>Fatal error sending email message, look the log line below</value>
+  </data>
+  <data name="MsgFileExcpFolder" xml:space="preserve">
+    <value>File in the Exception folder:</value>
+  </data>
+  <data name="MsgFileWillBeGenerete" xml:space="preserve">
+    <value>Files will be generated in</value>
+  </data>
+  <data name="MsgFlHandleAction" xml:space="preserve">
+    <value>file handle and action.</value>
+  </data>
+  <data name="MsgInvUserPass" xml:space="preserve">
+    <value>Invalid username/password, please try again</value>
+  </data>
+  <data name="MsgJobRnnOnce" xml:space="preserve">
+    <value>Job Routine is running in Run Once execution, verify the action log for more details...</value>
+  </data>
+  <data name="MsgJobRnnVerify" xml:space="preserve">
+    <value>Job Routine is running, verify the action log for more details...</value>
+  </data>
+  <data name="MsgReachEndOf" xml:space="preserve">
+    <value>You reached the last item of the list!</value>
+  </data>
+  <data name="MsgReachFirstOf" xml:space="preserve">
+    <value>You reached the first item of the list!</value>
+  </data>
+  <data name="MsgRungComputer" xml:space="preserve">
+    <value>Running in a Computer with the follow informations:</value>
+  </data>
+  <data name="MsgSaveSuccess" xml:space="preserve">
+    <value>New Instruction job file Saved with success!</value>
+  </data>
+  <data name="MsgThiJobRunning" xml:space="preserve">
+    <value>This Job are running for</value>
+  </data>
+  <data name="MsgVerifySelectBox" xml:space="preserve">
+    <value>Please verify the selected box!</value>
+  </data>
+  <data name="MsgVrfExcEntry" xml:space="preserve">
+    <value>Verify the exception entry</value>
+  </data>
+  <data name="StrAbout" xml:space="preserve">
+    <value>About the Application</value>
+  </data>
+  <data name="StrAction" xml:space="preserve">
+    <value>action.</value>
+  </data>
+  <data name="StrActionLogFile" xml:space="preserve">
+    <value>Application Actions Log file:</value>
+  </data>
+  <data name="StrActionLogfiles" xml:space="preserve">
+    <value>Action Log Files</value>
+  </data>
+  <data name="StrActionLogHistory" xml:space="preserve">
+    <value>Action Log History</value>
+  </data>
+  <data name="StrActionType" xml:space="preserve">
+    <value>Action type</value>
+  </data>
+  <data name="StrActionTypeCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="StrActionTypeMov" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="StrActionTypeRen" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="StrActionTypeZip" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="StrActionTypeZipDel" xml:space="preserve">
+    <value>Zip and Delete</value>
+  </data>
+  <data name="StrActiveJobs" xml:space="preserve">
+    <value>Active Jobs:</value>
+  </data>
+  <data name="StrAndTargetIs" xml:space="preserve">
+    <value>and the Target folder is</value>
+  </data>
+  <data name="StrApplication" xml:space="preserve">
+    <value>Application.</value>
+  </data>
+  <data name="StrAppName" xml:space="preserve">
+    <value>Application Name</value>
+  </data>
+  <data name="StrbrStatistic" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="StrbtAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="StrbtBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="StrbtCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StrbtClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="StrbtDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="StrbtFirst" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="StrbtInstruction" xml:space="preserve">
+    <value>Instructions File</value>
+  </data>
+  <data name="StrbtInstructionBuilder" xml:space="preserve">
+    <value>Instructions Builder</value>
+  </data>
+  <data name="StrbtLast" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="StrbtLoad" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="StrbtLogHistory" xml:space="preserve">
+    <value>Log History</value>
+  </data>
+  <data name="StrbtNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="StrbtRun" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="StrbtRunOnce" xml:space="preserve">
+    <value>Run Once</value>
+  </data>
+  <data name="StrbtSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="StrbtStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StrClickInHistoryBt" xml:space="preserve">
+    <value>Please click in History Button to see the log informations...</value>
+  </data>
+  <data name="StrCloseApplication" xml:space="preserve">
+    <value>Close the application</value>
+  </data>
+  <data name="StrCloseWindow" xml:space="preserve">
+    <value>Close the window</value>
+  </data>
+  <data name="StrComputerName" xml:space="preserve">
+    <value>Computer Name:</value>
+  </data>
+  <data name="StrCopyFile" xml:space="preserve">
+    <value>Copying File</value>
+  </data>
+  <data name="StrCopyTime" xml:space="preserve">
+    <value>Copy time:</value>
+  </data>
+  <data name="StrCreated" xml:space="preserve">
+    <value>created!!!</value>
+  </data>
+  <data name="StrDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="StrDeleteTime" xml:space="preserve">
+    <value>Delete time:</value>
+  </data>
+  <data name="StrDestZipFilewillbe" xml:space="preserve">
+    <value>The Destination ZIP file will be</value>
+  </data>
+  <data name="StrDwnFile" xml:space="preserve">
+    <value>Downloading File:</value>
+  </data>
+  <data name="StrEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="StrEmailGeneratedBy" xml:space="preserve">
+    <value>This e-mail was generated by xfileActions Handle and is part of the monitoring module.</value>
+  </data>
+  <data name="StrError" xml:space="preserve">
+    <value>Error :</value>
+  </data>
+  <data name="StrErrorNumber" xml:space="preserve">
+    <value>Error Number:</value>
+  </data>
+  <data name="StrExclamation" xml:space="preserve">
+    <value>Exclamation</value>
+  </data>
+  <data name="StrExcpFolder" xml:space="preserve">
+    <value>Exception Folder</value>
+  </data>
+  <data name="StrExcpMessage" xml:space="preserve">
+    <value>Exception message:</value>
+  </data>
+  <data name="StrExcSourceFolderIs" xml:space="preserve">
+    <value>The Exception Source folder is</value>
+  </data>
+  <data name="StrExecutedAt" xml:space="preserve">
+    <value>executed at</value>
+  </data>
+  <data name="StrExecutionIn" xml:space="preserve">
+    <value>Execution In:</value>
+  </data>
+  <data name="StrExpireIn" xml:space="preserve">
+    <value>Expire in</value>
+  </data>
+  <data name="StrFilesFound" xml:space="preserve">
+    <value>file(s) found !!!</value>
+  </data>
+  <data name="StrFileWithExtension" xml:space="preserve">
+    <value>with the extension</value>
+  </data>
+  <data name="StrFolderException" xml:space="preserve">
+    <value>Folder Exception</value>
+  </data>
+  <data name="StrFolderInformations" xml:space="preserve">
+    <value>Folder Informations</value>
+  </data>
+  <data name="StrFor" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="StrFtpDeleteTime" xml:space="preserve">
+    <value>Ftp Delete time:</value>
+  </data>
+  <data name="StrFtpDownDelTime" xml:space="preserve">
+    <value>Download Delete time:</value>
+  </data>
+  <data name="StrFtpDownTime" xml:space="preserve">
+    <value>Download time:</value>
+  </data>
+  <data name="StrFtpSourceAddress" xml:space="preserve">
+    <value>FTP Source IP Address</value>
+  </data>
+  <data name="StrFtpSourceFolder" xml:space="preserve">
+    <value>FTP Source Folder</value>
+  </data>
+  <data name="StrFtpSourceInformations" xml:space="preserve">
+    <value>FTP Source Informations</value>
+  </data>
+  <data name="StrFtpSourcePass" xml:space="preserve">
+    <value>FTP Source Pass</value>
+  </data>
+  <data name="StrFtpSourcePort" xml:space="preserve">
+    <value>FTP Source IP Port</value>
+  </data>
+  <data name="StrFtpSourceUser" xml:space="preserve">
+    <value>FTP Source User</value>
+  </data>
+  <data name="StrFtpSrcFolderis" xml:space="preserve">
+    <value>The FTP Source folder is</value>
+  </data>
+  <data name="StrFtpTargetFolder" xml:space="preserve">
+    <value>FTP Target Folder</value>
+  </data>
+  <data name="StrFtpTargetInformations" xml:space="preserve">
+    <value>FTP Target Informations</value>
+  </data>
+  <data name="StrFtpTgtFolderis" xml:space="preserve">
+    <value>The FTP Target folder is</value>
+  </data>
+  <data name="StrFtpTrgtAddress" xml:space="preserve">
+    <value>FTP Target IP Address</value>
+  </data>
+  <data name="StrFtpTrgtPass" xml:space="preserve">
+    <value>FTP Target Pass</value>
+  </data>
+  <data name="StrFtpTrgtPort" xml:space="preserve">
+    <value>FTP Target IP Port</value>
+  </data>
+  <data name="StrFtpTrgtUser" xml:space="preserve">
+    <value>FTP Target User</value>
+  </data>
+  <data name="StrFtpUpDeleteTime" xml:space="preserve">
+    <value>Upload Delete time:</value>
+  </data>
+  <data name="StrFtpUploadtime" xml:space="preserve">
+    <value>Upload time:</value>
+  </data>
+  <data name="StrInactiveJobs" xml:space="preserve">
+    <value>Inactive Jobs:</value>
+  </data>
+  <data name="StrInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="StrInFtpServer" xml:space="preserve">
+    <value>in FTP Server</value>
+  </data>
+  <data name="StrInstFileManager" xml:space="preserve">
+    <value>Instruction file Manager</value>
+  </data>
+  <data name="StrInstFileView" xml:space="preserve">
+    <value>Instruction file view</value>
+  </data>
+  <data name="StrInstructionFileName" xml:space="preserve">
+    <value>Instruction File:</value>
+  </data>
+  <data name="StrInstructionMaintenance" xml:space="preserve">
+    <value>Instructions Maintenance</value>
+  </data>
+  <data name="StrInstructionsList" xml:space="preserve">
+    <value>Job Instructions List</value>
+  </data>
+  <data name="StrJob" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="StrJobActInformations" xml:space="preserve">
+    <value>Job Action Informations</value>
+  </data>
+  <data name="StrJobAllreallyDelete" xml:space="preserve">
+    <value>This Job is alreally deleted!</value>
+  </data>
+  <data name="StrJobExecResult" xml:space="preserve">
+    <value>Job Execution Results</value>
+  </data>
+  <data name="StrJobExecutionInterval" xml:space="preserve">
+    <value>Job Execution Interval:</value>
+  </data>
+  <data name="StrJobExecutionList" xml:space="preserve">
+    <value>Job Executions List</value>
+  </data>
+  <data name="StrJobInstructions" xml:space="preserve">
+    <value>Job Instructions</value>
+  </data>
+  <data name="StrJobModo" xml:space="preserve">
+    <value>Job Mode</value>
+  </data>
+  <data name="StrJobName" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="StrJobs" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="StrJobStart" xml:space="preserve">
+    <value>Job execution started at:</value>
+  </data>
+  <data name="StrJobState" xml:space="preserve">
+    <value>Job State:</value>
+  </data>
+  <data name="StrLicDayRemaing" xml:space="preserve">
+    <value>License days remaing</value>
+  </data>
+  <data name="StrLicense" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="StrLicenseInformations" xml:space="preserve">
+    <value>License Informations</value>
+  </data>
+  <data name="StrLicFile" xml:space="preserve">
+    <value>License File:</value>
+  </data>
+  <data name="StrLicFileNotFound" xml:space="preserve">
+    <value>License File not found... starting to create!</value>
+  </data>
+  <data name="StrLicInfValid" xml:space="preserve">
+    <value>License Informations validated</value>
+  </data>
+  <data name="StrLicIniDate" xml:space="preserve">
+    <value>License Initial date</value>
+  </data>
+  <data name="StrLicLoadSuc" xml:space="preserve">
+    <value>License file loaded with success, starting validation process!!!</value>
+  </data>
+  <data name="StrLicTo" xml:space="preserve">
+    <value>Licensed to:</value>
+  </data>
+  <data name="StrLoaded" xml:space="preserve">
+    <value>Loaded!</value>
+  </data>
+  <data name="StrLogCleanexec" xml:space="preserve">
+    <value>Log files cleanup routine was executed...</value>
+  </data>
+  <data name="StrLogCreatedby" xml:space="preserve">
+    <value>Log created by</value>
+  </data>
+  <data name="StrLogFileName" xml:space="preserve">
+    <value>Log file name:</value>
+  </data>
+  <data name="StrLogInformations" xml:space="preserve">
+    <value>Log Informations</value>
+  </data>
+  <data name="StrLogMod" xml:space="preserve">
+    <value>Log Mode</value>
+  </data>
+  <data name="StrMaximizeWindow" xml:space="preserve">
+    <value>Maximize the window</value>
+  </data>
+  <data name="StrMinimizeWindow" xml:space="preserve">
+    <value>Minimize the window</value>
+  </data>
+  <data name="StrMode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="StrMoveTime" xml:space="preserve">
+    <value>Move time:</value>
+  </data>
+  <data name="StrMovFile" xml:space="preserve">
+    <value>Moving File</value>
+  </data>
+  <data name="StrNoFound" xml:space="preserve">
+    <value>Not Found!!!</value>
+  </data>
+  <data name="StrNotFndStrtCreate" xml:space="preserve">
+    <value>not found, starting to create !!!</value>
+  </data>
+  <data name="StrNotificationIcon" xml:space="preserve">
+    <value>Notification Icon: xfileActions</value>
+  </data>
+  <data name="StrNotLicensed" xml:space="preserve">
+    <value>Not Licensed - in trial period</value>
+  </data>
+  <data name="StrNumberOfExecution" xml:space="preserve">
+    <value>Number of executions:</value>
+  </data>
+  <data name="StrNumberofJobs" xml:space="preserve">
+    <value>Number of Jobs:</value>
+  </data>
+  <data name="StrOperationSystem" xml:space="preserve">
+    <value>Operation System:</value>
+  </data>
+  <data name="StrPatternIs" xml:space="preserve">
+    <value>and the pattern is</value>
+  </data>
+  <data name="StrPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="StrPort2Points" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="StrProcJobName" xml:space="preserve">
+    <value>Processing Job named:</value>
+  </data>
+  <data name="StrProcPlatForm" xml:space="preserve">
+    <value>Processor Platform: 64 Bits</value>
+  </data>
+  <data name="StrRegDone" xml:space="preserve">
+    <value>Registered!... Done!</value>
+  </data>
+  <data name="StrRegFile" xml:space="preserve">
+    <value>Registration File</value>
+  </data>
+  <data name="StrRegFileCorrect" xml:space="preserve">
+    <value>Registration file is correct !!!</value>
+  </data>
+  <data name="StrRegfileNotFound" xml:space="preserve">
+    <value>Registration file Not Found, please verify!</value>
+  </data>
+  <data name="StrRegInfValidated" xml:space="preserve">
+    <value>Registration Informations validated</value>
+  </data>
+  <data name="StrRegProcMadeRemote" xml:space="preserve">
+    <value>Registration Process was made in the remote server... done!</value>
+  </data>
+  <data name="StrRegProcMadeSucc" xml:space="preserve">
+    <value>Registration process was made with success!</value>
+  </data>
+  <data name="StrRenameTime" xml:space="preserve">
+    <value>Rename time:</value>
+  </data>
+  <data name="StrRenFile" xml:space="preserve">
+    <value>Renaming File</value>
+  </data>
+  <data name="StrRestoreWindow" xml:space="preserve">
+    <value>Restore the window</value>
+  </data>
+  <data name="StrRightClickOnIcon" xml:space="preserve">
+    <value>Right-click on the icon for more options.</value>
+  </data>
+  <data name="StrRmvFile" xml:space="preserve">
+    <value>Removing File</value>
+  </data>
+  <data name="StrRoutine" xml:space="preserve">
+    <value>Routine was defined as</value>
+  </data>
+  <data name="StrRungWithStatus" xml:space="preserve">
+    <value>and are running with status</value>
+  </data>
+  <data name="StrRunning" xml:space="preserve">
+    <value>Running...</value>
+  </data>
+  <data name="StrRunOne" xml:space="preserve">
+    <value>Run Once...</value>
+  </data>
+  <data name="StrSecLogFilesInformations" xml:space="preserve">
+    <value>Security Log Files</value>
+  </data>
+  <data name="StrSendMailOn" xml:space="preserve">
+    <value>Send Email On Action</value>
+  </data>
+  <data name="StrSerialNumber" xml:space="preserve">
+    <value>Serial Number:</value>
+  </data>
+  <data name="StrSouceFolder" xml:space="preserve">
+    <value>Source Folder</value>
+  </data>
+  <data name="StrSourceFolder" xml:space="preserve">
+    <value>Source Folder</value>
+  </data>
+  <data name="StrSourceFolderis" xml:space="preserve">
+    <value>The Source folder is</value>
+  </data>
+  <data name="StrSourceHost" xml:space="preserve">
+    <value>Source Host</value>
+  </data>
+  <data name="StrSourcePass" xml:space="preserve">
+    <value>Source Pass</value>
+  </data>
+  <data name="StrSourceUser" xml:space="preserve">
+    <value>Source User</value>
+  </data>
+  <data name="StrStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StrStopped" xml:space="preserve">
+    <value>Stopped...</value>
+  </data>
+  <data name="StrSyslogFile" xml:space="preserve">
+    <value>System Log file:</value>
+  </data>
+  <data name="StrSysStarted" xml:space="preserve">
+    <value>System Started</value>
+  </data>
+  <data name="StrSysteminit" xml:space="preserve">
+    <value>System Initiated!</value>
+  </data>
+  <data name="StrSystemLogFiles" xml:space="preserve">
+    <value>System Log Files</value>
+  </data>
+  <data name="StrSystemRunning" xml:space="preserve">
+    <value>System is running in</value>
+  </data>
+  <data name="StrSystemRunningActiveLicPer" xml:space="preserve">
+    <value>System running in the active license period &lt;</value>
+  </data>
+  <data name="StrSystemStartedandUpRunn" xml:space="preserve">
+    <value>System started and are up and running... since</value>
+  </data>
+  <data name="StrTargetFolder" xml:space="preserve">
+    <value>Target Folder</value>
+  </data>
+  <data name="StrTargetFolderis" xml:space="preserve">
+    <value>The Target folder is</value>
+  </data>
+  <data name="StrTargetHost" xml:space="preserve">
+    <value>Target Host</value>
+  </data>
+  <data name="StrTargetPass" xml:space="preserve">
+    <value>Target Pass</value>
+  </data>
+  <data name="StrTargetUser" xml:space="preserve">
+    <value>Target User</value>
+  </data>
+  <data name="StrTgtPaternis" xml:space="preserve">
+    <value>The Target patern is</value>
+  </data>
+  <data name="StrTimeToLive" xml:space="preserve">
+    <value>Time To Live</value>
+  </data>
+  <data name="StrTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="StrTotalExecTime" xml:space="preserve">
+    <value>Total Execution in time:</value>
+  </data>
+  <data name="StrTotFiles" xml:space="preserve">
+    <value>Total files:</value>
+  </data>
+  <data name="StrTtFilesExcFolder" xml:space="preserve">
+    <value>Total files in exception folder:</value>
+  </data>
+  <data name="StrTtFileswithError" xml:space="preserve">
+    <value>Total files with error to processing:</value>
+  </data>
+  <data name="StrTTL" xml:space="preserve">
+    <value>TTL</value>
+  </data>
+  <data name="StrTtlDefinfor" xml:space="preserve">
+    <value>Time to Live defined for the file(s) is</value>
+  </data>
+  <data name="StrUplFile" xml:space="preserve">
+    <value>Uploading File:</value>
+  </data>
+  <data name="StrValidTo" xml:space="preserve">
+    <value>Valid To:</value>
+  </data>
+  <data name="StrVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="StrVerSubFolders" xml:space="preserve">
+    <value>Verify Sub Folders?</value>
+  </data>
+  <data name="StrWaiting" xml:space="preserve">
+    <value>Waiting...</value>
+  </data>
+  <data name="StrWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="StrWasCreatWithSuccess" xml:space="preserve">
+    <value>was created with Success!</value>
+  </data>
+  <data name="StrWasDeleted" xml:space="preserve">
+    <value>was deleted!</value>
+  </data>
+  <data name="StrWasExctElapse" xml:space="preserve">
+    <value>was executed and the elapsed time is</value>
+  </data>
+  <data name="StrWasExctError" xml:space="preserve">
+    <value>was executed with Error!</value>
+  </data>
+  <data name="StrWildCard" xml:space="preserve">
+    <value>Wildcard</value>
+  </data>
+  <data name="StrWildcardOnException" xml:space="preserve">
+    <value>Wildcard on excep...</value>
+  </data>
+  <data name="StrWillBe" xml:space="preserve">
+    <value>will be</value>
+  </data>
+  <data name="StrWillBeExecuted" xml:space="preserve">
+    <value>and will be executed...</value>
+  </data>
+  <data name="StrWillBeNotExecuted" xml:space="preserve">
+    <value>and will Not be executed...</value>
+  </data>
+  <data name="StrWithErrorBelow" xml:space="preserve">
+    <value>with the error below.</value>
+  </data>
+  <data name="StrWithPatternIqual" xml:space="preserve">
+    <value>with the pattern iqual</value>
+  </data>
+  <data name="StrWithSuccess" xml:space="preserve">
+    <value>with success.</value>
+  </data>
+  <data name="StrWkSetMemory" xml:space="preserve">
+    <value>WorkingSet Memory:</value>
+  </data>
+  <data name="StrWlcOnExcFolder" xml:space="preserve">
+    <value>WildCard on Exception Folder</value>
+  </data>
+  <data name="StrWlcOnSource" xml:space="preserve">
+    <value>WildCard on Source</value>
+  </data>
+  <data name="StrWlcOnTarget" xml:space="preserve">
+    <value>WildCard on Target</value>
+  </data>
+  <data name="StrZipDeleteTime" xml:space="preserve">
+    <value>Zip Delete time:</value>
+  </data>
+  <data name="StrZipFile" xml:space="preserve">
+    <value>Ziping File</value>
+  </data>
+  <data name="StrZipName" xml:space="preserve">
+    <value>Zip Name</value>
+  </data>
+  <data name="StrZipTime" xml:space="preserve">
+    <value>Zip time:</value>
+  </data>
+</root>
